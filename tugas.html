@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Registrasi</title>
+  </head>
+  <body>
+    <h2>Form Registrasi</h2>
+    <div>
+      <fieldset><Legend>Biodata</Legend>
+        <form action="#" method="get">
+          <label for="nama">Nama Mahasiswa:</label><br>
+          <input type="text" id="nama" name="nama" required placeholder="Nama Anda" size="50"><br><br>
+  
+          <label for="email">No Induk Mahasiswa:</label><br>
+          <input type="text" id="induk" name="induk" required placeholder="NIM Anda" size="50"><br><br>
+
+          <label for="alamat">Alamat Mahasiswa:</label><br>
+          <textarea id="alamat" name="alamat" required placeholder="Alamat Anda"></textarea><br><br>
+
+          <label for="tanggal_lahir">Tanggal Lahir:</label><br>
+          <input type="date" id="tanggal_lahir" name="tanggal_lahir" required><br><br>
+
+          <label for="radio">Jenis Kelamin:</label><br>
+          <input type="radio" name="radio1" value="radio1" id="radio1"><label for="radio1">Pria</label>
+          <input type="radio" name="radio2" value="radio2" id="radio2"><label for="radio2">Wanita</label><br><br>
+
+          <label for="upload_foto">Upload Foto:</label><br>
+          <input type="file" name="upload_foto" id="upload_foto" accept="image/*"><br><br>
+  
+          <label for="url">URL Website:</label><br>
+          <input type="text" id="url" name="url" required placeholder="URL Website Anda" size="50"><br><br>
+  
+          <label for="perguruan">Perguruan Tinggi:</label><br>
+          <input type="text" id="perguruan" name="perguruan" placeholder="Perguruan Tinggi Anda" required size="50">
+        </form>
+      </fieldset>
+    </div>
+    <br>
+    <div>
+      <fieldset><legend>Info Akun</legend>
+        <form action="#" method="get">
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" required placeholder="Email Anda" size="50"><br><br>
+
+          <label for="username">Username:</label><br>
+          <input type="text" id="username" name="username" required placeholder="Username Anda" size="50"><br><br>
+
+          <label for="password">Password:</label><br>
+          <input type="password" id="password" name="password" required placeholder="Password Anda" size="50"><br><br>
+
+          <label for="password">Ulangi Password:</label><br>
+          <input type="password" id="password2" name="password2" required placeholder="Password Anda" size="50"><br><br>
+        </form>
+      </fieldset>
+    </div>
+    <br>
+    <div>
+      <fieldset><legend>Kemampuan Dasar</legend>
+        <form action="#" method="get">
+          <input type="checkbox" name="html" value="html" id="html"><label for="html">HTML</label>
+          <input type="checkbox" name="css" value="css" id="css"><label for="css">CSS</label>
+          <input type="checkbox" name="javascript" value="javascript" id="javascript"><label for="javascript">Javascript</label>
+          <input type="checkbox" name="php" value="php" id="php"><label for="php">PHP</label>
+          <input type="checkbox" name="mysql" value="mysql" id="mysql"><label for="mysql">MySQL</label>
+          <input type="checkbox" name="laravel" value="laravel" id="laravel"><label for="laravel">Laravel</label>
+          <input type="checkbox" name="reactnative" value="reactnative" id="reactnative"><label for="reactnative">React Native</label>
+        </form>
+      </fieldset>
+    </div>
+    <br>
+    <div>
+      <p>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Simpan">
+        <input type="button" value="Button" onclick="">
+      </p>
+    </div>
+  </body>
+</html>
